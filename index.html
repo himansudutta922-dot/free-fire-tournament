@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090914">
+  <title>Free Fire Tournament | Register Your Squad</title>
+  <meta name="description" content="Join the Free Fire Squad Tournament, 24–26 November 2026. ₹15,000 prize pool. Register your squad now.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar"><span class="live-dot"></span> REGISTRATION OPEN <span class="topbar-right">24–26 NOVEMBER 2026</span></div>
+  <header class="hero">
+    <nav class="nav wrap">
+      <a class="brand" href="#home"><span class="brand-mark">FF</span><span>FREE FIRE <b>TOURNAMENT</b></span></a>
+      <a class="nav-cta" href="#register">JOIN NOW <span>↗</span></a>
+    </nav>
+    <main id="home" class="hero-content wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">⚡ SQUAD BATTLE • 3 DAYS • BIG REWARDS</p>
+        <h1>DROP IN.<br><em>FIGHT HARD.</em><br>CLAIM THE WIN.</h1>
+        <p class="hero-desc">Bring your squad. Show your skills. Compete for your share of the <strong>₹15,000 prize pool.</strong></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#register">REGISTER YOUR SQUAD <span>→</span></a>
+          <a class="btn btn-ghost" href="#prizes">VIEW PRIZES</a>
+        </div>
+        <div class="hero-meta"><span>📅 24–26 NOV 2026</span><span>🎮 SQUAD MODE</span><span>🎟 ₹200 / PLAYER</span></div>
+      </div>
+      <div class="hero-art" aria-label="Tournament graphic">
+        <div class="glow"></div><div class="art-tag">BOOYAH!</div>
+        <div class="crosshair">✦</div>
+        <div class="art-title">FREE<br><span>FIRE</span></div>
+        <div class="art-sub">SQUAD TOURNAMENT</div>
+        <div class="art-prize">₹15,000</div>
+        <div class="art-caption">TOTAL PRIZE POOL</div>
+      </div>
+    </main>
+    <div class="hero-bottom"></div>
+  </header>
+
+  <section class="stats wrap" id="prizes">
+    <div class="stat-main"><small>TOTAL PRIZE POOL</small><strong>₹15,000</strong><span>THE BATTLE IS ON</span></div>
+    <div class="stat"><span class="stat-icon">☠</span><small>HIGHEST KILL PLAYER</small><strong>₹3,000</strong></div>
+    <div class="stat"><span class="stat-icon">★</span><small>BEST PLAYER / MVP</small><strong>₹4,000</strong></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-heading"><p class="eyebrow">THE DETAILS</p><h2>YOUR NEXT <em>CHALLENGE</em></h2><p>Everything you need to know before entering the battleground.</p></div>
+    <div class="info-grid">
+      <article class="info-card"><span>📆</span><div><small>TOURNAMENT DATES</small><h3>24–26 November 2026</h3><p>Three days of competitive action.</p></div></article>
+      <article class="info-card"><span>🎮</span><div><small>GAME MODE</small><h3>Squad</h3><p>Register a full team of four players.</p></div></article>
+      <article class="info-card"><span>🎟</span><div><small>ENTRY FEE</small><h3>₹200 / player</h3><p>₹800 for a four-player squad.</p></div></article>
+      <article class="info-card"><span>📲</span><div><small>REGISTRATION HELP</small><h3>WhatsApp Support</h3><p>Contact the organiser for payment and match details.</p></div></article>
+    </div>
+  </section>
+
+  <section class="register-section" id="register">
+    <div class="wrap register-layout">
+      <div class="register-intro">
+        <p class="eyebrow">LOCK IN YOUR SPOT</p><h2>REGISTER<br><em>YOUR SQUAD.</em></h2>
+        <p>Fill in your team details. When you submit, WhatsApp will open with your registration information ready to send to the organiser.</p>
+        <div class="fee-box"><small>SQUAD ENTRY FEE</small><strong>₹800</strong><span>4 players × ₹200 each</span></div>
+        <p class="support">Need help? WhatsApp <a href="https://wa.me/919395321836" target="_blank" rel="noopener">9395321836 ↗</a></p>
+      </div>
+      <form id="registrationForm" class="form-card">
+        <div class="form-title"><span>01 / TEAM DETAILS</span><h3>Squad registration</h3></div>
+        <label>Team name<input name="team" required maxlength="40" placeholder="Enter your squad name"></label>
+        <label>Captain's name<input name="captain" required maxlength="40" placeholder="Full name"></label>
+        <label>Captain's WhatsApp number<input name="phone" required type="tel" pattern="[0-9+\-\s]{10,15}" placeholder="Your contact number"></label>
+        <div class="form-title players-title"><span>02 / PLAYER DETAILS</span><h3>All 4 players</h3></div>
+        <div class="player-grid">
+          <label>Player 1 — Name<input name="p1name" required placeholder="Captain / player name"></label>
+          <label>Player 1 — Free Fire UID<input name="p1uid" required placeholder="Game UID"></label>
+          <label>Player 2 — Name<input name="p2name" required placeholder="Player name"></label>
+          <label>Player 2 — Free Fire UID<input name="p2uid" required placeholder="Game UID"></label>
+          <label>Player 3 — Name<input name="p3name" required placeholder="Player name"></label>
+          <label>Player 3 — Free Fire UID<input name="p3uid" required placeholder="Game UID"></label>
+          <label>Player 4 — Name<input name="p4name" required placeholder="Player name"></label>
+          <label>Player 4 — Free Fire UID<input name="p4uid" required placeholder="Game UID"></label>
+        </div>
+        <div class="fee-summary"><span>Registration fee <small>(4 × ₹200)</small></span><strong>₹800</strong></div>
+        <p class="form-note">Submitting this form opens WhatsApp. Your registration is not confirmed until the organiser replies and confirms payment.</p>
+        <button class="btn btn-primary submit-btn" type="submit">SEND REGISTRATION ON WHATSAPP <span>→</span></button>
+      </form>
+    </div>
+  </section>
+
+  <section class="final-cta wrap">
+    <p class="eyebrow">THE BATTLEGROUND IS WAITING</p><h2>ARE YOU READY<br>TO <em>BOOYAH?</em></h2>
+    <a class="btn btn-primary" href="#register">JOIN THE TOURNAMENT →</a>
+  </section>
+
+  <footer><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">FF</span><span>FREE FIRE <b>TOURNAMENT</b></span></a><p>Unofficial community tournament. Not affiliated with or endorsed by Garena.</p><a href="https://wa.me/919395321836" target="_blank" rel="noopener">WhatsApp: 9395321836</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
